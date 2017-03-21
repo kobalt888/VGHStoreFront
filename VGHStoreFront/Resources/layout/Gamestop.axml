@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1"
+    p1:focusableInTouchMode="true"
+    p1:descendantFocusability="beforeDescendants">
+  <TextView
+        p1:text="UPC"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView1" />
+  <EditText
+      p1:layout_width="match_parent"
+      p1:layout_height="wrap_content"
+      p1:id="@+id/upcBox"
+      p1:layout_marginBottom="14.5dp"
+      p1:editable="true"
+      p1:inputType="number"
+      p1:clickable="true"/>
+  <RadioGroup
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/radioGroup1">
+        <RadioButton
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:checked="true"
+            p1:text="Standard UPC"
+            p1:id="@+id/radioButton1" />
+        <RadioButton
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:text="VGH UPC"
+            p1:id="@+id/radioButton2" />
+    </RadioGroup>
+    <Space
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/space1" />
+    <TextView
+        p1:text="Game Title"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView2" />
+    <EditText
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/GameTitleTextView"
+        p1:editable="false"
+        p1:focusable="false"
+        p1:clickable="false" />
+    <TextView
+        p1:text="Console"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView3" />
+    <EditText
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/ConsoleTextView"
+        p1:editable="false"
+        p1:focusable="false"
+        p1:clickable="false" />
+    <TextView
+        p1:text="Gamestop Used Price"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView4" />
+    <EditText
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/PriceTextView"
+        p1:editable="false"
+        p1:clickable="false"
+        p1:focusable="false" />
+    <ImageView
+        p1:src="@drawable/vghlogo"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/imageView1"
+        p1:clickable="true" />
+</LinearLayout>

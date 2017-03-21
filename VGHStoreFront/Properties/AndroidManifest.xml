@@ -1,5 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="VGHStoreFront.VGHStoreFront" android:versionCode="1" android:versionName="1.0">
   <uses-sdk android:minSdkVersion="16" />
-  <application android:label="VGHStoreFront"></application>
+  <uses-permission android:name="android.permission.INTERNET" />
+  <application 
+    android:label="VGH Tools">
+    android:theme="@android:style/Theme.Black">
+    android:label="TextureViewCameraStream" android:hardwareAccelerated="true">
+  </application>
+
+  <activity 
+    android:name=".Gamestop"
+    android:windowSoftInputMode="stateHidden" 
+   />
 </manifest>

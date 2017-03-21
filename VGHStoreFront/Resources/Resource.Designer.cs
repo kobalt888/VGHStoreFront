@@ -47,6 +47,9 @@ namespace VGHStoreFront
 			// aapt resource value: 0x7f020000
 			public const int Icon = 2130837504;
 			
+			// aapt resource value: 0x7f020001
+			public const int VGHLogo = 2130837505;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -57,11 +60,78 @@ namespace VGHStoreFront
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f06000a
+			public const int ConsoleTextView = 2131099658;
+			
+			// aapt resource value: 0x7f060008
+			public const int GameTitleTextView = 2131099656;
+			
+			// aapt resource value: 0x7f06000f
+			public const int GamestopLogButton = 2131099663;
+			
+			// aapt resource value: 0x7f06000e
+			public const int GamestopMenuButton = 2131099662;
+			
+			// aapt resource value: 0x7f06000c
+			public const int PriceTextView = 2131099660;
+			
+			// aapt resource value: 0x7f06000d
+			public const int imageView1 = 2131099661;
+			
+			// aapt resource value: 0x7f060000
+			public const int linearLayout1 = 2131099648;
+			
+			// aapt resource value: 0x7f060004
+			public const int radioButton1 = 2131099652;
+			
+			// aapt resource value: 0x7f060005
+			public const int radioButton2 = 2131099653;
+			
+			// aapt resource value: 0x7f060003
+			public const int radioGroup1 = 2131099651;
+			
+			// aapt resource value: 0x7f060006
+			public const int space1 = 2131099654;
+			
+			// aapt resource value: 0x7f060001
+			public const int textView1 = 2131099649;
+			
+			// aapt resource value: 0x7f060007
+			public const int textView2 = 2131099655;
+			
+			// aapt resource value: 0x7f060009
+			public const int textView3 = 2131099657;
+			
+			// aapt resource value: 0x7f06000b
+			public const int textView4 = 2131099659;
+			
+			// aapt resource value: 0x7f060002
+			public const int upcBox = 2131099650;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int Gamestop = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int LogView = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Menu = 2130903042;
 			
 			static Layout()
 			{
@@ -73,14 +143,84 @@ namespace VGHStoreFront
 			}
 		}
 		
+		public partial class Raw
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int beep = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int camera_swap_icon = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int camera_swap_icon_pressed = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int flashlight_turn_off_icon = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int flashlight_turn_off_icon_pressed = 2130968580;
+			
+			// aapt resource value: 0x7f040005
+			public const int flashlight_turn_on_icon = 2130968581;
+			
+			// aapt resource value: 0x7f040006
+			public const int flashlight_turn_on_icon_pressed = 2130968582;
+			
+			// aapt resource value: 0x7f040007
+			public const int ic_btn_search = 2130968583;
+			
+			// aapt resource value: 0x7f040008
+			public const int ocr_turn_off_icon = 2130968584;
+			
+			// aapt resource value: 0x7f040009
+			public const int ocr_turn_on_icon = 2130968585;
+			
+			// aapt resource value: 0x7f04000a
+			public const int scan_line_blue = 2130968586;
+			
+			// aapt resource value: 0x7f04000b
+			public const int scan_line_white = 2130968587;
+			
+			// aapt resource value: 0x7f04000c
+			public const int scandit_logo = 2130968588;
+			
+			// aapt resource value: 0x7f04000d
+			public const int scandit_logo2x = 2130968589;
+			
+			// aapt resource value: 0x7f04000e
+			public const int scandit_logo3x = 2130968590;
+			
+			static Raw()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Raw()
+			{
+			}
+		}
+		
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f050003
+			public const int ApplicationName = 2131034115;
 			
-			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			// aapt resource value: 0x7f050004
+			public const int FailedUpc = 2131034116;
+			
+			// aapt resource value: 0x7f050002
+			public const int Hello = 2131034114;
+			
+			// aapt resource value: 0x7f050000
+			public const int app_name = 2131034112;
+			
+			// aapt resource value: 0x7f050005
+			public const int planet_prompt = 2131034117;
+			
+			// aapt resource value: 0x7f050001
+			public const int version = 2131034113;
 			
 			static String()
 			{
